@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'mplus_0';
+  src: url('../font/rounded-mplus-2p-medium-webfont.eot');
+  src: url('../font/rounded-mplus-2p-medium-webfont.eot?#iefix') format('embedded-opentype'), url('../font/rounded-mplus-2p-medium-webfont.woff') format('woff'), url('../font/rounded-mplus-2p-medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'mplus_1';
+  src: url('../font/rounded-mplus-2p-light.eot');
+  src: url('../font/rounded-mplus-2p-light.eot?#iefix') format('embedded-opentype'), url('../font/rounded-mplus-2p-light.woff') format('woff'), url('../font/rounded-mplus-2p-light.ttf') format('truetype');
+}
