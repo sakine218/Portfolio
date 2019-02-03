@@ -1,41 +1,41 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
 * {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 html {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 body {
-    width: 100%;
-    height: 100%;
-    background-image: url(images/white.jpg);
-    background-size: cover;
-    background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  background-image: url(images/white.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .header {
-    display: flex;
-    justify-content: flex-start;
-    position: fixed;
-    width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  position: fixed;
+  width: 100%;
 }
 
 .header h1 {
-    margin: 0px;
+  margin: 0px;
 }
 
 .header h1 a {
-    height: 100%;
-    color: #292929;
-    font-family: 'mplus_0', sans-serif;
-    font-size: 50px;
-    letter-spacing: 30px;
-    text-align: center;
-    display: table;
+  height: 100%;
+  color: #292929;
+  font-family: 'mplus_0', sans-serif;
+  font-size: 50px;
+  letter-spacing: 30px;
+  text-align: center;
+  display: table;
 }
 
 .header h1 a {
@@ -46,7 +46,7 @@ body {
   color: #292929;
   text-decoration: none;
   float: left;
-  font-family: mplus_1;
+  font-family: 'mplus_1';
   transition: .3s;
 }
 
@@ -80,230 +80,227 @@ body {
   -webkit-transition-delay: .12s;
   transition-delay: .12s;
   color: #fff;
-}.header h1 a:hover span:nth-of-type(5) {
-    -webkit-transition-delay: .15s;
-    transition-delay: .15s;
+}
+
+.header h1 a:hover span:nth-of-type(5) {
+  -webkit-transition-delay: .15s;
+  transition-delay: .15s;
 }
 
 .header ul {
-    display: flex;
-    justify-content: flex-end;
-    list-style: none;
-    margin-top: 28px;
-    margin-right: 50px;
-    list-style: none;
-    font-family: mplus_0;
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin-top: 28px;
+  margin-right: 50px;
+  list-style: none;
+  font-family: 'mplus_0';
 }
 
 .header ul a {
-    text-decoration: none;
-    font-size: 25px;
-    color: #292929;
-    text-decoration: none;
-    transition: 0.3s;
-    display: block;
-    padding: 0 0 5px;
-    margin-right: 50px;
-    position: relative;
+  text-decoration: none;
+  font-size: 25px;
+  color: #292929;
+  text-decoration: none;
+  transition: 0.3s;
+  display: block;
+  padding: 0 0 5px;
+  margin-right: 50px;
+  position: relative;
 }
 
 .header ul li a::before,
 .header ul li a::after {
-    border-bottom: solid 2px #292929;
-    bottom: 0;
-    content: "";
-    display: block;
-    position: absolute;
-    transition: all .3s ease-in-out;
-    -webkit-transition: all .3s ease-in-out;
-    width: 0;
+  border-bottom: solid 2px #292929;
+  bottom: 0;
+  content: "";
+  display: block;
+  position: absolute;
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  width: 0;
 }
 
 .header ul li a::before {
-    left: 50%;
+  left: 50%;
 }
 
 .header ul li a::after {
-    right: 50%;
+  right: 50%;
 }
 
 .header ul li a:hover::before,
 .header ul li a:hover::after {
-    width: 50%;
+  width: 50%;
 }
 
 .top {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .about {
-    width: 100%;
-    background-color: #fff;
-    height: 100%;
-    display: table;
+  width: 100%;
+  background-color: #fff;
+  height: 100%;
+  display: table;
 }
 
 .about .aboutct {
-    padding-top: 100px;
-    overflow: hidden;
-    width: 70%;
-    height: 350px;
-    margin: 0 auto;
-    margin-top: 200px;
-    display: flex;
+  padding-top: 100px;
+  overflow: hidden;
+  width: 70%;
+  height: 350px;
+  margin: 0 auto;
+  margin-top: 200px;
+  display: flex;
 }
 
 .about .aboutct .contents {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .about .aboutct h1 {
-    font-size: 40px;
-    color: #292929;
-    font-family: mplus_1;
+  font-size: 40px;
+  color: #292929;
+  font-family: 'mplus_1';
 }
 
 .about .aboutct .contents h2 {
-    font-size: 20px;
-    color: #292929;
-    font-family: mplus_1;
+  font-size: 20px;
+  color: #292929;
+  font-family: 'mplus_1';
 }
 
 .about .aboutct .contents h3 {
-    font-size: 20px;
-    color: #292929;
-    font-family: mplus_1;
+  font-size: 20px;
+  color: #292929;
+  font-family: 'mplus_1';
 }
 
 .about .aboutct .contents .studys {
-    margin-left: 60px;
+  margin-left: 60px;
 }
 
 .about .aboutct .contents .studys img {
-    margin-top: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .news {
-    margin: 0 auto;
-    margin-top: 500px;
-    height: 100%;
-    background-color: #fff;
+  margin: 0 auto;
+  margin-top: 500px;
+  height: 100%;
+  background-color: #fff;
 }
 
 .news .title {
-    padding-top: 80px;
-    padding-bottom: 30px;
-    font-size: 50px;
-    color: #292929;
-    font-family: mplus_1;
-    margin: 0 auto;
-    text-align: center;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  font-size: 50px;
+  color: #292929;
+  font-family: 'mplus_1';
+  margin: 0 auto;
+  text-align: center;
 }
 
 .news .newsct {
-    width: 900px;
-    height: 50%;
-    padding-top: 20px;
-    padding-left: 30px;
-    margin: 0 auto;
-    border-left: solid #292929;
-    border-right: solid #292929;
-    overflow: scroll;
-    scrollbar-base-color: #292929;
+  width: 900px;
+  height: 50%;
+  padding-top: 20px;
+  padding-left: 30px;
+  margin: 0 auto;
+  border-left: solid #292929;
+  border-right: solid #292929;
+  overflow: scroll;
+  scrollbar-base-color: #292929;
 }
 
 .news .newsct p {
-    font-size: 16px;
-    color: #292929;
-    font-family: mplus_1;
-    line-height: 35px;
+  font-size: 16px;
+  color: #292929;
+  font-family: 'mplus_1';
+  line-height: 35px;
 }
 
-
 .app {
-    width: 100%;
-    margin-top: 500px;
+  width: 100%;
+  margin-top: 500px;
 }
 
 .app .title {
-    padding-top: 80px;
-    font-size: 50px;
-    color: #292929;
-    font-family: mplus_1;
-    margin: 0 auto;
-    text-align: center;
+  padding-top: 80px;
+  font-size: 50px;
+  color: #292929;
+  font-family: 'mplus_1';
+  margin: 0 auto;
+  text-align: center;
+}
+
+.app .contents {
+  display: flex;
 }
 
 .app .movie {
-    position: absolute;
+  position: absolute;
 }
 
 .app .iphone {
-    padding-left: 250px;
+  padding-left: 250px;
 }
 
-.app .iphone .display {
-    display: flex;
-    padding: 0 auto;
-}
-
-.app .dlbt {
-    padding-top: 50px;
-    padding-left: 200px;
+.app .display {
+  position: relative;
+  padding: 0 auto;
 }
 
 .app .movie {
-    padding-top: 95px;
-    position: absolute;
-    left: 303px;
-    width: 292px;
+  padding-top: 95px;
+  position: absolute;
+  left: 303px;
+  top: 0;
+  width: 292px;
+}
+
+.app .explain {
+  margin: 0 auto;
+  padding-top: 50px;
 }
 
 .app h2 {
-    margin-top: 100px;
-    margin-left: 30px;
-    width: 40%;
-    float: left;
-    font-size: 20px;
-    color: #292929;
-    font-family: mplus_1;
+  font-size: 20px;
+  color: #292929;
+  font-family: 'mplus_1';
 }
 
 .app h3 {
-    margin-top: 30px;
-    margin-left: 30px;
-    width: 40%;
-    float: left;
-    font-size: 16px;
-    color: #292929;
-    font-family: mplus_1;
+  font-size: 16px;
+  color: #292929;
+  font-family: 'mplus_1';
 }
 
 .calm {
-    background-color: #fff;
-    width: 100%;
-    height: 780px;
-    overflow: hidden;
+  background-color: #fff;
+  width: 100%;
+  height: 780px;
+  overflow: hidden;
 }
 
 .hub {
-    background-color: #fff;
-    width: 100%;
-    margin-top: 500px;
-    height: 780px;
-    overflow: hidden;
-    position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 780px;
+  overflow: hidden;
+  margin-top: 500px;
 }
 
 .memorie {
-    background-color: #fff;
-    width: 100%;
-    margin-top: 500px;
-    height: 780px;
-    overflow: hidden;
+  background-color: #fff;
+  width: 100%;
+  height: 780px;
+  overflow: hidden;
+  margin-top: 500px;
 }
 
 .web {
@@ -317,7 +314,7 @@ body {
     padding-top: 80px;
     font-size: 50px;
     color: #292929;
-    font-family: mplus_1;
+    font-family: 'mplus_1';
     margin: 0 auto;
     text-align: center;
 }
@@ -340,7 +337,7 @@ body {
     padding-top: 80px;
     font-size: 50px;
     color: #292929;
-    font-family: mplus_1;
+    font-family: 'mplus_1';
     margin: 0 auto;
     text-align: center;
 }
@@ -358,7 +355,7 @@ body {
     margin-left: 40px;
     margin-top: 20px;
     font-size: 20px;
-    font-family: mplus_1;
+    font-family: 'mplus_1';
     display: block;
     opacity: 0.3;
     float: left;
@@ -369,7 +366,7 @@ body {
     margin-right: 40px;
     margin-top: 20px;
     font-size: 20px;
-    font-family: mplus_1;
+    font-family: 'mplus_1';
     text-decoration: none;
     display: block;
     float: right;
