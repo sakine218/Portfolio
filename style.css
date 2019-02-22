@@ -1,7 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
 * {
-  margin: 0 auto;
+  margin: 0;
+  padding: 0;
 }
 
 html {
@@ -19,9 +20,11 @@ body {
 
 .header {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   position: fixed;
   width: 100%;
+  transition: .3s;
+  z-index: 1000;
 }
 
 .header h1 {
@@ -31,22 +34,14 @@ body {
 .header h1 a {
   height: 100%;
   color: #292929;
-  font-family: 'mplus_0', sans-serif;
+  font-family: 'mplus_1', sans-serif;
   font-size: 50px;
   letter-spacing: 30px;
   text-align: center;
   display: table;
-}
-
-.header h1 a {
-  letter-spacing: 10px;
   margin-top: 8px;
   margin-left: 50px;
-  font-size: 50px;
-  color: #292929;
   text-decoration: none;
-  float: left;
-  font-family: 'mplus_1';
   transition: .3s;
 }
 
@@ -148,7 +143,6 @@ body {
 
 .about .aboutct {
   padding-top: 100px;
-  overflow: hidden;
   width: 70%;
   height: 350px;
   margin: 0 auto;
@@ -156,8 +150,18 @@ body {
   display: flex;
 }
 
+.about .aboutct .icon {
+  width: 350px;
+  height: 350px;
+}
+
+.about .aboutct #icon-m {
+  display: none !important;
+}
+
 .about .aboutct .contents {
   margin-top: 20px;
+  margin-left: 60px;
 }
 
 .about .aboutct h1 {
@@ -178,14 +182,11 @@ body {
   font-family: 'mplus_1';
 }
 
-.about .aboutct .contents .studys {
-  margin-left: 60px;
-}
-
 .about .aboutct .contents .studys img {
   margin-top: 30px;
   margin-left: 10px;
   margin-right: 10px;
+  width: 90px;
 }
 
 .news {
@@ -197,7 +198,7 @@ body {
 
 .news .title {
   padding-top: 80px;
-  padding-bottom: 30px;
+  padding-bottom: 80px;
   font-size: 50px;
   color: #292929;
   font-family: 'mplus_1';
@@ -206,9 +207,9 @@ body {
 }
 
 .news .newsct {
-  width: 900px;
+  /* width: 900px; */
+  width: 50%;
   height: 50%;
-  padding-top: 20px;
   padding-left: 30px;
   margin: 0 auto;
   border-left: solid #292929;
@@ -275,6 +276,7 @@ body {
 }
 
 .app h3 {
+  padding-bottom: 50px;
   font-size: 16px;
   color: #292929;
   font-family: 'mplus_1';
@@ -376,4 +378,58 @@ body {
 .footer a:hover {
     opacity: 0.5;
     transition: 0.3s;
+}
+
+@media screen and (max-width:480px) {
+  body {
+    background-image: url(images/white-m.jpg);
+  }
+  .header{
+    flex-wrap: wrap;
+  }
+  .header h1 a {
+    font-size: 25px;
+    letter-spacing: 10px;
+    margin-left: 20px;
+    float: right;
+  }
+  .header ul {
+    margin-right: 20px;
+    justify-content: flex-start;
+  }
+  .header ul a {
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    padding: 0;
+    margin-right: 10px;
+  }
+  .about .aboutct {
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 0;
+  }
+  .about .aboutct .icon {
+    width: 60%;
+    height: 60%;
+  }
+  .about .aboutct #icon {
+    display: none !important;
+  }
+  .about .aboutct #icon-m {
+    display: block !important;
+    margin: 0;
+    padding: 0;
+  }
+  .news .newsct {
+    width: 85%;
+    border-left: none;
+    border-right: none;
+    padding-left: 10px;
+  }
+  .news .newsct p {
+    font-size: 10px;
+    line-height: 20px;
+  }
 }
