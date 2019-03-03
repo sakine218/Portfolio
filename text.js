@@ -1,3 +1,4 @@
+//スムーススクロール処理
 $(function () {
     var $win = $(window),
         $header = $('.header'),
@@ -31,3 +32,5 @@ $(function () {
         return false;
     });
 });
+
+//
