@@ -13,11 +13,77 @@ html {
 body {
   width: 100%;
   height: 100%;
+}
+
+/* .parallax.bg-01 {
   background-image: url(images/white.jpg);
-  /* -webkit-filter: grayscale(100%);
-  filter: grayscale(100%); */
+  -webkit-filter: grayscale(100%);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   background-size: cover;
-  background-attachment: fixed;
+  position: fixed;
+  z-index: -1;
+} */
+.parallax.bg-01 {
+  background-image: url(images/parallaxBg-01.jpg);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.parallax.bg-02 {
+  background-image: url(images/parallaxBg-02.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.parallax.bg-03 {
+  background-image: url(images/parallaxBg-03.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.parallax.bg-04 {
+  background-image: url(images/parallaxBg-01.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.parallax.bg-05 {
+  background-image: url(images/parallaxBg-02.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.parallax.bg-06 {
+  background-image: url(images/parallaxBg-03.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.parallax.bg-07 {
+  background-image: url(images/parallaxBg-01.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.parallax {
+  filter: grayscale(0%);
+  transition: filter 0.4s;
+}
+
+.bg-gray {
+  filter: grayscale(100%);
 }
 
 .header {
@@ -139,7 +205,7 @@ body {
 .about {
   width: 100%;
   background-color: #fff;
-  height: 100%;
+  height: 90%;
   display: table;
 }
 
@@ -148,7 +214,7 @@ body {
   width: 70%;
   height: 350px;
   margin: 0 auto;
-  margin-top: 200px;
+  padding-top: 240px;
   display: flex;
 }
 
@@ -193,13 +259,12 @@ body {
 
 .news {
   margin: 0 auto;
-  margin-top: 500px;
-  height: 100%;
+  height: 90%;
   background-color: #fff;
 }
 
-.news .title {
-  padding-top: 80px;
+.news .news-title {
+  padding-top: 100px;
   padding-bottom: 80px;
   font-size: 50px;
   color: #292929;
@@ -229,10 +294,9 @@ body {
 
 .app {
   width: 100%;
-  margin-top: 500px;
 }
 
-.app .title {
+.app .app-title {
   padding-top: 80px;
   font-size: 50px;
   color: #292929;
@@ -284,38 +348,38 @@ body {
   font-family: 'mplus_1';
 }
 
-.calm {
+#calm {
   background-color: #fff;
   width: 100%;
-  height: 780px;
+  height: 85%;
   overflow: hidden;
+  margin-top: 50px;
 }
 
-.hub {
+#hub {
   background-color: #fff;
   width: 100%;
-  height: 780px;
+  height: 85%;
   overflow: hidden;
-  margin-top: 500px;
+  margin-top: 50px;
 }
 
-.memorie {
+#memorie {
   background-color: #fff;
   width: 100%;
-  height: 780px;
+  height: 85%;
   overflow: hidden;
-  margin-top: 500px;
+  margin-top: 50px;
 }
 
 .web {
+  padding-top: 80px;
   background-color: #fff;
   width: 100%;
-  margin-top: 500px;
-  height: 100%;
+  height: 90%;
 }
 
-.web .title {
-  padding-top: 80px;
+.web .web-title {
   font-size: 50px;
   color: #292929;
   font-family: 'mplus_1';
@@ -324,40 +388,27 @@ body {
 }
 
 .web img {
-  width: 60%;
+  width: 55%;
   display: block;
   margin: 0 auto;
-  padding-top: 60px;
+  margin-top: 60px;
 }
 
-.contact {
-  background-color: #fff;
-  width: 100%;
-  margin-top: 500px;
-  height: 100%;
-}
-
-.contact .title {
-  padding-top: 80px;
-  font-size: 50px;
-  color: #292929;
-  font-family: 'mplus_1';
-  margin: 0 auto;
-  text-align: center;
+.bg-07 {
+  position: relative;
 }
 
 .footer {
+  position: absolute;
   width: 100%;
-  margin-top: 500px;
-  margin-bottom: 15px;
   height: 60px;
-  overflow: hidden;
+  bottom: 0;
 }
 
 .footer h1 {
-  color: #fff;
-  margin-left: 40px;
-  margin-top: 20px;
+  color: #292929;
+  padding-left: 40px;
+  padding-top: 20px;
   font-size: 20px;
   font-family: 'mplus_1';
   display: block;
@@ -366,9 +417,9 @@ body {
 }
 
 .footer a {
-  color: #fff;
-  margin-right: 40px;
-  margin-top: 20px;
+  color: #292929;
+  padding-right: 40px;
+  padding-top: 20px;
   font-size: 20px;
   font-family: 'mplus_1';
   text-decoration: none;
@@ -384,7 +435,8 @@ body {
 
 @media screen and (max-width:480px) {
   body {
-    background-image: url(images/white-m.jpg);
+    background-image: url(images/white-01-m.jpg);
+    background-attachment: fixed;
   }
 
   .header {
