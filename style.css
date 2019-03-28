@@ -15,66 +15,39 @@ body {
   height: 100%;
 }
 
-/* .parallax.bg-01 {
-  background-image: url(images/white.jpg);
-  -webkit-filter: grayscale(100%);
-  top: 0;
-  left: 0;
+.parallax {
   width: 100%;
   height: 100%;
   background-size: cover;
-  position: fixed;
-  z-index: -1;
-} */
+  background-repeat: no-repeat;
+}
+
 .parallax.bg-01 {
   background-image: url(images/parallaxBg-01.jpg);
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
 }
 
 .parallax.bg-02 {
   background-image: url(images/parallaxBg-02.jpg);
-  width: 100%;
-  height: 100%;
-  background-size: cover;
 }
 
 .parallax.bg-03 {
   background-image: url(images/parallaxBg-03.jpg);
-  width: 100%;
-  height: 100%;
-  background-size: cover;
 }
 
 .parallax.bg-04 {
-  background-image: url(images/parallaxBg-01.jpg);
-  width: 100%;
-  height: 100%;
-  background-size: cover;
+  background-image: url(images/parallaxBg-04.jpg);
 }
 
 .parallax.bg-05 {
-  background-image: url(images/parallaxBg-02.jpg);
-  width: 100%;
-  height: 100%;
-  background-size: cover;
+  background-image: url(images/parallaxBg-05.jpg);
 }
 
 .parallax.bg-06 {
-  background-image: url(images/parallaxBg-03.jpg);
-  width: 100%;
-  height: 100%;
-  background-size: cover;
+  background-image: url(images/parallaxBg-06.jpg);
 }
 
 .parallax.bg-07 {
-  background-image: url(images/parallaxBg-01.jpg);
-  width: 100%;
-  height: 100%;
-  background-size: cover;
+  background-image: url(images/parallaxBg-07.jpg);
 }
 
 .parallax {
@@ -150,56 +123,29 @@ body {
   transition-delay: .15s;
 }
 
-.header ul {
-  display: flex;
-  justify-content: flex-end;
-  list-style: none;
-  margin-top: 28px;
-  margin-right: 50px;
-  list-style: none;
-  font-family: 'mplus_0';
-}
-
-.header ul a {
-  text-decoration: none;
-  font-size: 25px;
+.contact {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 80px;
+  height: 80px;
   color: #292929;
+  font-size: 40px;
+  font-family: 'mplus_1';
+  text-align: center;
   text-decoration: none;
-  transition: 0.3s;
+  line-height: 80px;
+  border-radius: 80px;
   display: block;
-  padding: 0 0 5px;
-  margin-right: 50px;
-  position: relative;
+  transition:all 0.3s ease;
+  background-color: rgba(255,255,255,0.5);
+  z-index: 100;
+  box-shadow: 3px 10px 5px -5px rgba(0,0,0,0.2);
 }
 
-.header ul li a::before,
-.header ul li a::after {
-  border-bottom: solid 2px #292929;
-  bottom: 0;
-  content: "";
-  display: block;
-  position: absolute;
-  transition: all .3s ease-in-out;
-  -webkit-transition: all .3s ease-in-out;
-  width: 0;
-}
-
-.header ul li a::before {
-  left: 50%;
-}
-
-.header ul li a::after {
-  right: 50%;
-}
-
-.header ul li a:hover::before,
-.header ul li a:hover::after {
-  width: 50%;
-}
-
-.top {
-  width: 100%;
-  height: 100%;
+.contact:hover {
+  box-shadow: 3px 12px 5px -5px rgba(0,0,0,0.2);
+  transition:all 0.3s ease;
 }
 
 .about {
@@ -402,30 +348,18 @@ body {
   position: absolute;
   width: 100%;
   height: 60px;
-  bottom: 0;
+  bottom: 20px;
 }
 
 .footer h1 {
-  color: #292929;
-  padding-left: 40px;
-  padding-top: 20px;
+  color: #fff;
+  padding-top: 30px;
+  margin-left: 30px;
   font-size: 20px;
   font-family: 'mplus_1';
   display: block;
   opacity: 0.3;
   float: left;
-}
-
-.footer a {
-  color: #292929;
-  padding-right: 40px;
-  padding-top: 20px;
-  font-size: 20px;
-  font-family: 'mplus_1';
-  text-decoration: none;
-  display: block;
-  float: right;
-  transition: 0.3s;
 }
 
 .footer a:hover {
@@ -448,19 +382,6 @@ body {
     letter-spacing: 10px;
     margin-left: 20px;
     float: right;
-  }
-
-  .header ul {
-    margin-right: 20px;
-    justify-content: flex-start;
-  }
-
-  .header ul a {
-    text-decoration: none;
-    font-size: 25px;
-    display: block;
-    padding: 0;
-    margin-right: 10px;
   }
 
   .about .aboutct {

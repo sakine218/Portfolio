@@ -119,22 +119,22 @@ $(function(){
       if(scrollY == targetPosOT1){
         target1.removeClass('bg-gray');
       }
-      if(scrollY < targetPosOT2 + 100 && scrollY > targetPosOT2 - 100){
+      if(scrollY < targetPosOT2 + 250 && scrollY > targetPosOT2 - 250){
         target2.removeClass('bg-gray');
       }
-      if(scrollY < targetPosOT3 + 100 && scrollY > targetPosOT3 - 100){
+      if(scrollY < targetPosOT3 + 250 && scrollY > targetPosOT3 - 250){
         target3.removeClass('bg-gray');
       }
-      if(scrollY < targetPosOT4 + 100 && scrollY > targetPosOT4 - 100){
+      if(scrollY < targetPosOT4 + 250 && scrollY > targetPosOT4 - 250){
         target4.removeClass('bg-gray');
       }
-      if(scrollY < targetPosOT5 + 100 && scrollY > targetPosOT5 - 100){
+      if(scrollY < targetPosOT5 + 250 && scrollY > targetPosOT5 - 250){
         target5.removeClass('bg-gray');
       }
-      if(scrollY < targetPosOT6 + 100 && scrollY > targetPosOT6 - 100){
+      if(scrollY < targetPosOT6 + 250 && scrollY > targetPosOT6 - 250){
         target6.removeClass('bg-gray');
       }
-      if(scrollY < targetPosOT7 + 100 && scrollY > targetPosOT7 - 100){
+      if(scrollY < targetPosOT7 + 250 && scrollY > targetPosOT7 - 250){
         target7.removeClass('bg-gray');
       }
     });
