@@ -76,6 +76,7 @@ body {
   height: 100%;
   color: #292929;
   font-family: "Didot", sans-serif;
+  font-weight: lighter;
   font-size: 50px;
   letter-spacing: 20px;
   text-align: center;
@@ -130,8 +131,9 @@ body {
   width: 80px;
   height: 80px;
   color: #292929;
-  font-size: 40px;
+  font-size: 55px;
   font-family: 'Didot';
+  font-weight: lighter;
   text-align: center;
   text-decoration: none;
   border-radius: 80px;
@@ -181,6 +183,7 @@ body {
   font-size: 40px;
   color: #292929;
   font-family: 'Didot';
+  font-weight: lighter;
 }
 
 .about .aboutct .contents h2 {
@@ -188,6 +191,7 @@ body {
   font-size: 20px;
   color: #292929;
   font-family: 'Didot';
+  font-weight: lighter;
 }
 
 .about .aboutct .contents h3 {
@@ -195,13 +199,14 @@ body {
   font-size: 20px;
   color: #292929;
   font-family: 'Didot';
+  font-weight: lighter;
 }
 
 .about .aboutct .contents .studys img {
   margin-top: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 90px;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 50px;
 }
 
 .news {
@@ -216,6 +221,7 @@ body {
   font-size: 50px;
   color: #292929;
   font-family: 'Didot';
+  font-weight: lighter;
   margin: 0 auto;
   text-align: center;
 }
@@ -249,6 +255,7 @@ body {
   font-size: 50px;
   color: #292929;
   font-family: 'Didot';
+  font-weight: lighter;
   margin: 0 auto;
   text-align: center;
 }
@@ -299,6 +306,7 @@ body {
   font-size: 16px;
   color: #292929;
   font-family: 'Didot';
+  font-weight: lighter;
 }
 
 #calm {
@@ -336,6 +344,7 @@ body {
   font-size: 50px;
   color: #292929;
   font-family: 'Didot';
+  font-weight: lighter;
   margin: 0 auto;
   text-align: center;
 }
@@ -364,6 +373,7 @@ body {
   margin-left: 30px;
   font-size: 20px;
   font-family: 'Didot';
+  font-weight: lighter;
   display: block;
   opacity: 0.3;
   float: left;
@@ -409,7 +419,6 @@ body {
   }
 
   .about .aboutct .icon {
-    margin: 0 auto;
     width: 250px;
     height: 250px;
   }
@@ -420,7 +429,7 @@ body {
 
   .about .aboutct #icon-m {
     display: block !important;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
   }
 
@@ -428,15 +437,32 @@ body {
     font-size: 25px;
   }
 
+  .about .aboutct .contents h2 {
+    margin-top: 5px;
+    font-size: 12px;
+  }
+
+  .about .aboutct .contents h3 {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+
   .about .aboutct .contents .studys img {
-    margin-top: 20px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-top: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
     width: 30px;
+  }
+
+  .news .news-title {
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 30px;
   }
 
   .news .newsct {
     width: 85%;
+    height: 60%;
     border-left: none;
     border-right: none;
     padding-left: 10px;
