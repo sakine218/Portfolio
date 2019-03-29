@@ -75,9 +75,9 @@ body {
 .header h1 a {
   height: 100%;
   color: #292929;
-  font-family: 'mplus_1', sans-serif;
+  font-family: "Didot", sans-serif;
   font-size: 50px;
-  letter-spacing: 30px;
+  letter-spacing: 20px;
   text-align: center;
   display: table;
   margin-top: 8px;
@@ -131,7 +131,7 @@ body {
   height: 80px;
   color: #292929;
   font-size: 40px;
-  font-family: 'mplus_1';
+  font-family: 'Didot';
   text-align: center;
   text-decoration: none;
   line-height: 80px;
@@ -181,23 +181,25 @@ body {
 .about .aboutct h1 {
   font-size: 40px;
   color: #292929;
-  font-family: 'mplus_1';
+  font-family: 'Didot';
 }
 
 .about .aboutct .contents h2 {
+  margin-top: 10px;
   font-size: 20px;
   color: #292929;
-  font-family: 'mplus_1';
+  font-family: 'Didot';
 }
 
 .about .aboutct .contents h3 {
+  margin-top: 20px;
   font-size: 20px;
   color: #292929;
-  font-family: 'mplus_1';
+  font-family: 'Didot';
 }
 
 .about .aboutct .contents .studys img {
-  margin-top: 30px;
+  margin-top: 20px;
   margin-left: 10px;
   margin-right: 10px;
   width: 90px;
@@ -214,7 +216,7 @@ body {
   padding-bottom: 80px;
   font-size: 50px;
   color: #292929;
-  font-family: 'mplus_1';
+  font-family: 'Didot';
   margin: 0 auto;
   text-align: center;
 }
@@ -234,7 +236,8 @@ body {
 .news .newsct p {
   font-size: 16px;
   color: #292929;
-  font-family: 'mplus_1';
+  font-family: 'Noto Sans Japanese';
+  font-weight: 200;
   line-height: 35px;
 }
 
@@ -243,20 +246,17 @@ body {
 }
 
 .app .app-title {
-  padding-top: 80px;
+  padding-top: 60px;
+  padding-bottom: 35px;
   font-size: 50px;
   color: #292929;
-  font-family: 'mplus_1';
+  font-family: 'Didot';
   margin: 0 auto;
   text-align: center;
 }
 
 .app .contents {
   display: flex;
-}
-
-.app .movie {
-  position: absolute;
 }
 
 .app .iphone {
@@ -269,10 +269,9 @@ body {
 }
 
 .app .movie {
-  padding-top: 95px;
   position: absolute;
   left: 303px;
-  top: 0;
+  top: 95px;
   width: 292px;
 }
 
@@ -284,14 +283,23 @@ body {
 .app h2 {
   font-size: 20px;
   color: #292929;
-  font-family: 'mplus_1';
+  font-family: 'Noto Sans Japanese';
+  font-weight: 200;
 }
 
 .app h3 {
-  padding-bottom: 50px;
   font-size: 16px;
   color: #292929;
-  font-family: 'mplus_1';
+  font-family: 'Noto Sans Japanese';
+  font-weight: 200;
+}
+
+.app h4 {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 16px;
+  color: #292929;
+  font-family: 'Didot';
 }
 
 #calm {
@@ -328,7 +336,7 @@ body {
 .web .web-title {
   font-size: 50px;
   color: #292929;
-  font-family: 'mplus_1';
+  font-family: 'Didot';
   margin: 0 auto;
   text-align: center;
 }
@@ -356,7 +364,7 @@ body {
   padding-top: 30px;
   margin-left: 30px;
   font-size: 20px;
-  font-family: 'mplus_1';
+  font-family: 'Didot';
   display: block;
   opacity: 0.3;
   float: left;
