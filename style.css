@@ -158,7 +158,7 @@ body {
 
 .about .aboutct {
   padding-top: 100px;
-  width: 70%;
+  width: 55%;
   height: 350px;
   margin: 0 auto;
   padding-top: 240px;
@@ -245,6 +245,11 @@ body {
   line-height: 35px;
 }
 
+.news .newsct p span {
+  font-weight: 700;
+  color: #545454;
+}
+
 .app {
   width: 100%;
 }
@@ -312,6 +317,8 @@ body {
 .app a {
   color: #292929;
   text-decoration: none;
+  font-family: 'Didot';
+  font-weight: lighter;
 }
 
 #calm {
@@ -339,7 +346,7 @@ body {
 }
 
 .web {
-  padding-top: 80px;
+  padding-top: 100px;
   background-color: #fff;
   width: 100%;
   height: 90%;
@@ -419,7 +426,7 @@ body {
     width: 90%;
     flex-wrap: wrap;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 150px;
     padding: 0;
   }
 
@@ -455,8 +462,8 @@ body {
   .about .aboutct .contents .studys img {
     margin-top: 10px;
     margin-left: 3px;
-    margin-right: 3px;
-    width: 30px;
+    margin-right: 0px;
+    width: 20px;
   }
 
   .news .news-title {
@@ -467,7 +474,7 @@ body {
 
   .news .newsct {
     width: 85%;
-    height: 60%;
+    height: 80%;
     border-left: none;
     border-right: none;
     padding-left: 10px;
@@ -476,5 +483,13 @@ body {
   .news .newsct p {
     font-size: 10px;
     line-height: 20px;
+  }
+
+  .app {
+    height: auto;
+  }
+
+  .app .app-title {
+    font-size: 30px;
   }
 }
