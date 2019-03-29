@@ -134,7 +134,6 @@ body {
   font-family: 'Didot';
   text-align: center;
   text-decoration: none;
-  line-height: 80px;
   border-radius: 80px;
   display: block;
   transition:all 0.3s ease;
@@ -222,7 +221,6 @@ body {
 }
 
 .news .newsct {
-  /* width: 900px; */
   width: 50%;
   height: 50%;
   padding-left: 30px;
@@ -289,6 +287,7 @@ body {
 
 .app h3 {
   font-size: 16px;
+  line-height: 28px;
   color: #292929;
   font-family: 'Noto Sans Japanese';
   font-weight: 200;
@@ -392,7 +391,17 @@ body {
     float: right;
   }
 
+  .contact {
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+    border-radius: 60px;
+  }
+
   .about .aboutct {
+    width: 90%;
     flex-wrap: wrap;
     margin: 0 auto;
     margin-top: 100px;
@@ -400,8 +409,9 @@ body {
   }
 
   .about .aboutct .icon {
-    width: 60%;
-    height: 60%;
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
   }
 
   .about .aboutct #icon {
@@ -412,6 +422,17 @@ body {
     display: block !important;
     margin: 0;
     padding: 0;
+  }
+
+  .about .aboutct h1 {
+    font-size: 25px;
+  }
+
+  .about .aboutct .contents .studys img {
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 30px;
   }
 
   .news .newsct {
