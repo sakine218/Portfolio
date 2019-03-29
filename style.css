@@ -492,4 +492,17 @@ body {
   .app .app-title {
     font-size: 30px;
   }
+
+  .web .web-title {
+    font-size: 30px;
+  }
+
+  .web {
+    padding-top: 50px;
+    height: 55%;
+  }
+
+  .web img{
+    width: 100%;
+  }
 }
