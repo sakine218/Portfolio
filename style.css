@@ -405,9 +405,9 @@ body {
 }
 
 @media screen and (max-width:480px) {
-  body {
-    background-image: url(images/white-01-m.jpg);
-    background-attachment: fixed;
+  .parallax {
+    background-position: center;
+    height: 90%;
   }
 
   .header {
