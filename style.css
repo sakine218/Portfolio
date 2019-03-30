@@ -407,7 +407,7 @@ body {
 @media screen and (max-width:480px) {
   .parallax {
     background-position: center;
-    height: 90%;
+    height: 650px;
   }
 
   .header {
