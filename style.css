@@ -152,7 +152,7 @@ body {
 .about {
   width: 100%;
   background-color: #fff;
-  height: 90%;
+  height: 770px;
   display: table;
 }
 
@@ -211,7 +211,7 @@ body {
 
 .news {
   margin: 0 auto;
-  height: 90%;
+  height: 770px;
   background-color: #fff;
 }
 
@@ -430,6 +430,10 @@ body {
     border-radius: 60px;
   }
 
+  .about {
+    height: 660px;
+  }
+
   .about .aboutct {
     width: 90%;
     flex-wrap: wrap;
@@ -482,7 +486,7 @@ body {
 
   .news .newsct {
     width: 85%;
-    height: 80%;
+    height: 700px;
     border-left: none;
     border-right: none;
     padding-left: 10px;
