@@ -131,7 +131,7 @@ body {
   width: 80px;
   height: 80px;
   color: #292929;
-  font-size: 55px;
+  font-size: 45px;
   font-family: 'Didot';
   font-weight: lighter;
   text-align: center;
@@ -426,7 +426,7 @@ body {
     right: 20px;
     width: 60px;
     height: 60px;
-    font-size: 40px;
+    font-size: 35px;
     border-radius: 60px;
   }
 
@@ -573,5 +573,14 @@ body {
   .web img{
     width: 100%;
     margin-top: 50px;
+  }
+
+  .footer {
+    height: 50px;
+  }
+
+  .footer h1 {
+    font-size: 15px;
+    padding-top: 5px;
   }
 }

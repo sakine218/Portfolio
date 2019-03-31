@@ -16,7 +16,7 @@ $(function(){
     var targetPosOT7 = target1.offset().top;
 
     //パララックスの動きを滑らかにする
-    var targetFactor = 0.4;
+    var targetFactor = 0.8;
 
     var windowH = $(window).height();
 
