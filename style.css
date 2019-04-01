@@ -426,7 +426,7 @@ body {
     right: 20px;
     width: 60px;
     height: 60px;
-    font-size: 35px;
+    font-size: 34px;
     border-radius: 60px;
   }
 
@@ -577,6 +577,7 @@ body {
 
   .footer {
     height: 50px;
+    margin-bottom: 0;
   }
 
   .footer h1 {
