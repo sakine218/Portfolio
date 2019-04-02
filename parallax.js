@@ -50,6 +50,7 @@ $(function(){
       }
       if(scrollY > scrollYStart7){
         target7.css('background-position-y', (scrollY - targetPosOT7) * targetFactor + 'px');
+        //target7.css('background-position-y', 0);
       }
     });
   });
