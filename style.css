@@ -128,15 +128,15 @@ body {
   position: fixed;
   bottom: 30px;
   right: 30px;
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   color: #292929;
-  font-size: 45px;
+  font-size: 35px;
   font-family: 'Didot';
   font-weight: lighter;
   text-align: center;
   text-decoration: none;
-  border-radius: 80px;
+  border-radius: 60px;
   display: block;
   transition:all 0.3s ease;
   background-color: rgba(255,255,255,0.5);
@@ -148,6 +148,67 @@ body {
   box-shadow: 1px 5px 10px rgba(0,0,0,0.2);
   transition:all 0.3s ease;
 }
+
+.mail {
+  position: fixed;
+  bottom: 110px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  color: #292929;
+  font-size: 25px;
+  font-family: 'Didot';
+  font-weight: lighter;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50px;
+  display: block;
+  transition:all 0.3s ease;
+  background-color: rgba(255,255,255,0.5);
+  z-index: 100;
+  box-shadow: 1px 3px 8px rgba(0,0,0,0.2);
+}
+
+.facebook {
+  position: fixed;
+  bottom: 90px;
+  right: 90px;
+  width: 50px;
+  height: 50px;
+  color: #292929;
+  font-size: 30px;
+  font-family: 'Didot';
+  font-weight: lighter;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50px;
+  display: block;
+  transition:all 0.3s ease;
+  background-color: rgba(255,255,255,0.5);
+  z-index: 100;
+  box-shadow: 1px 3px 8px rgba(0,0,0,0.2);
+}
+
+.twitter {
+  position: fixed;
+  bottom: 30px;
+  right: 110px;
+  width: 50px;
+  height: 50px;
+  color: #292929;
+  font-size: 32px;
+  font-family: 'Didot';
+  font-weight: lighter;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50px;
+  display: block;
+  transition:all 0.3s ease;
+  background-color: rgba(255,255,255,0.5);
+  z-index: 100;
+  box-shadow: 1px 3px 8px rgba(0,0,0,0.2);
+}
+
 
 .about {
   width: 100%;
