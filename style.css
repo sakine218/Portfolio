@@ -150,63 +150,78 @@ body {
 }
 
 .mail {
+  list-style: none;
   position: fixed;
   bottom: 110px;
   right: 30px;
   width: 50px;
   height: 50px;
-  color: #292929;
-  font-size: 25px;
-  font-family: 'Didot';
-  font-weight: lighter;
-  text-align: center;
-  text-decoration: none;
   border-radius: 50px;
-  display: block;
-  transition:all 0.3s ease;
   background-color: rgba(255,255,255,0.5);
   z-index: 100;
   box-shadow: 1px 3px 8px rgba(0,0,0,0.2);
 }
 
+.mail a {
+  padding-top: 13px;
+  color: #292929;
+  font-size: 20px;
+  font-family: 'Didot';
+  font-weight: lighter;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  transition:all 0.3s ease;
+}
+
 .facebook {
+  list-style: none;
   position: fixed;
   bottom: 90px;
   right: 90px;
   width: 50px;
   height: 50px;
-  color: #292929;
-  font-size: 30px;
-  font-family: 'Didot';
-  font-weight: lighter;
-  text-align: center;
-  text-decoration: none;
   border-radius: 50px;
-  display: block;
-  transition:all 0.3s ease;
   background-color: rgba(255,255,255,0.5);
   z-index: 100;
   box-shadow: 1px 3px 8px rgba(0,0,0,0.2);
 }
 
+.facebook a {
+  padding-top: 11px;
+  color: #292929;
+  font-size: 24px;
+  font-family: 'Didot';
+  font-weight: lighter;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  transition:all 0.3s ease;
+}
+
 .twitter {
+  list-style: none;
   position: fixed;
   bottom: 30px;
   right: 110px;
   width: 50px;
   height: 50px;
+  border-radius: 50px;
+  background-color: rgba(255,255,255,0.5);
+  z-index: 100;
+  box-shadow: 1px 3px 8px rgba(0,0,0,0.2);
+}
+
+.twitter a {
+  padding-top: 11px;
   color: #292929;
-  font-size: 32px;
+  font-size: 24px;
   font-family: 'Didot';
   font-weight: lighter;
   text-align: center;
   text-decoration: none;
-  border-radius: 50px;
   display: block;
   transition:all 0.3s ease;
-  background-color: rgba(255,255,255,0.5);
-  z-index: 100;
-  box-shadow: 1px 3px 8px rgba(0,0,0,0.2);
 }
 
 .about {
