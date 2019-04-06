@@ -149,6 +149,27 @@ body {
   transition:all 0.3s ease;
 }
 
+.contact:checked ~ .mail {
+  bottom: 110px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+}
+
+.contact:checked ~ .facebook {
+  bottom: 90px;
+  right: 90px;
+  width: 50px;
+  height: 50px;
+}
+
+.contact:checked ~ .twitter {
+  bottom: 30px;
+  right: 110px;
+  width: 50px;
+  height: 50px;
+}
+
 .mail {
   list-style: none;
   position: fixed;
