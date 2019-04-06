@@ -149,7 +149,8 @@ body {
   transition:all 0.3s ease;
 }
 
-.contact:checked ~ .mail {
+.contact:hover ~ .mail {
+  opacity: 1.0;
   bottom: 110px;
   right: 30px;
   width: 50px;
@@ -171,6 +172,7 @@ body {
 }
 
 .mail {
+  opacity: 0.0;
   list-style: none;
   position: fixed;
   bottom: 110px;
