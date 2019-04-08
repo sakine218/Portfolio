@@ -130,14 +130,7 @@ body {
   right: 30px;
   width: 60px;
   height: 60px;
-  color: #292929;
-  font-size: 35px;
-  font-family: 'Didot';
-  font-weight: lighter;
-  text-align: center;
-  text-decoration: none;
   border-radius: 60px;
-  display: block;
   transition:all 0.3s ease;
   background-color: rgba(255,255,255,0.5);
   z-index: 100;
@@ -147,6 +140,17 @@ body {
 .contact:hover {
   box-shadow: 1px 5px 10px rgba(0,0,0,0.2);
   transition:all 0.3s ease;
+}
+
+.contact label {
+  padding-top: 16px;
+  color: #292929;
+  font-size: 25px;
+  font-family: 'Didot';
+  font-weight: lighter;
+  text-align: center;
+  text-decoration: none;
+  display: block;
 }
 
 /* SNSボタンを隠してcheckedでスライドして表示されるようにする */
