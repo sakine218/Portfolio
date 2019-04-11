@@ -189,6 +189,7 @@ body {
 }
 
 .mail a {
+  transition-delay: .1s;
   padding-top: 13px;
   color: #292929;
   font-size: 20px;
@@ -214,6 +215,7 @@ body {
 }
 
 .facebook a {
+  transition-delay: .2s;
   padding-top: 11px;
   color: #292929;
   font-size: 24px;
@@ -239,6 +241,7 @@ body {
 }
 
 .twitter a {
+  transition-delay: .3s;
   padding-top: 11px;
   color: #292929;
   font-size: 24px;
