@@ -154,7 +154,7 @@ body {
 }
 
 /* SNSボタンを隠してcheckedでスライドして表示されるようにする */
-/* .contact:checked ~ .mail {
+.contact:checked ~ .mail {
   bottom: 110px;
   right: 30px;
   width: 50px;
@@ -173,7 +173,7 @@ body {
   right: 110px;
   width: 50px;
   height: 50px;
-} */
+}
 
 .mail {
   list-style: none;
