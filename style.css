@@ -16,47 +16,189 @@ body {
 }
 
 .parallax {
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
+    height: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-image 0.4s;
+}
+
+.content {
+    background-color: #fff;
+    height: 100%;
+    text-align: center;
 }
 
 .parallax.bg-01 {
-  background-image: url(images/parallaxBg-01.jpg);
+    background-image: url(images/parallaxImages/parallaxBg-01.jpg);
 }
 
 .parallax.bg-02 {
-  background-image: url(images/parallaxBg-02.jpg);
+    background-image: url(images/parallaxImages/parallaxBg-02.jpg);
 }
 
 .parallax.bg-03 {
-  background-image: url(images/parallaxBg-03.jpg);
+    background-image: url(images/parallaxImages/parallaxBg-03.jpg);
 }
 
 .parallax.bg-04 {
-  background-image: url(images/parallaxBg-04.jpg);
+    background-image: url(images/parallaxImages/parallaxBg-04.jpg);
 }
 
 .parallax.bg-05 {
-  background-image: url(images/parallaxBg-05.jpg);
+    background-image: url(images/parallaxImages/parallaxBg-05.jpg);
 }
 
 .parallax.bg-06 {
-  background-image: url(images/parallaxBg-06.jpg);
+    background-image: url(images/parallaxImages/parallaxBg-06.jpg);
 }
 
 .parallax.bg-07 {
-  background-image: url(images/parallaxBg-07.jpg);
+    background-image: url(images/parallaxImages/parallaxBg-07.jpg);
 }
 
-.parallax {
-  filter: grayscale(0%);
-  transition: filter 0.4s;
+.bg-gray-01 {
+    background-image: url(images/parallaxImages/parallaxBg-01-gray.jpg) !important;
 }
 
-.bg-gray {
-  filter: grayscale(100%);
+.bg-gray-02 {
+    background-image: url(images/parallaxImages/parallaxBg-02-gray.jpg) !important;
+}
+
+.bg-gray-03 {
+    background-image: url(images/parallaxImages/parallaxBg-03-gray.jpg) !important;
+}
+
+.bg-gray-04 {
+    background-image: url(images/parallaxImages/parallaxBg-04-gray.jpg) !important;
+}
+
+.bg-gray-05 {
+    background-image: url(images/parallaxImages/parallaxBg-05-gray.jpg) !important;
+}
+
+.bg-gray-06 {
+    background-image: url(images/parallaxImages/parallaxBg-06-gray.jpg) !important;
+}
+
+.bg-gray-07 {
+    background-image: url(images/parallaxImages/parallaxBg-07-gray.jpg) !important;
+}
+
+.contact_btn{
+    display: block;
+    width: 160px;
+    height:160px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: 8;
+}
+
+.contact {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    transition: all 0.3s ease;
+    background-color: rgb(255, 255, 255);
+    z-index: 10;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    padding-top: 16px;
+    color: #292929;
+    font-size: 25px;
+    font-family: 'Didot';
+    font-weight: lighter;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+}
+
+.contact:hover {
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.mail {
+    list-style: none;
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    z-index: 9;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.mail a {
+    transition-delay: .1s;
+    padding-top: 13px;
+    color: #292929;
+    font-size: 20px;
+    font-family: 'Didot';
+    font-weight: lighter;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    /* transition: all 0.3s ease; */
+}
+
+.facebook {
+    list-style: none;
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    z-index: 9;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.facebook a {
+    transition-delay: .2s;
+    padding-top: 11px;
+    color: #292929;
+    font-size: 24px;
+    font-family: 'Didot';
+    font-weight: lighter;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    /* transition: all 0.3s ease; */
+}
+
+.twitter {
+    list-style: none;
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    z-index: 9;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.twitter a {
+    transition-delay: .3s;
+    padding-top: 11px;
+    color: #292929;
+    font-size: 24px;
+    font-family: 'Didot';
+    font-weight: lighter;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    /* transition: all 0.3s ease; */
 }
 
 .header {
@@ -122,135 +264,6 @@ body {
 .header h1 a:hover span:nth-of-type(5) {
   -webkit-transition-delay: .15s;
   transition-delay: .15s;
-}
-
-.contact {
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  width: 60px;
-  height: 60px;
-  border-radius: 60px;
-  transition:all 0.3s ease;
-  background-color: rgba(255,255,255,0.5);
-  z-index: 100;
-  box-shadow: 1px 3px 8px rgba(0,0,0,0.2);
-}
-
-.contact:hover {
-  box-shadow: 1px 5px 10px rgba(0,0,0,0.2);
-  transition:all 0.3s ease;
-}
-
-.contact label {
-  padding-top: 16px;
-  color: #292929;
-  font-size: 25px;
-  font-family: 'Didot';
-  font-weight: lighter;
-  text-align: center;
-  text-decoration: none;
-  display: block;
-}
-
-/* SNSボタンを隠してcheckedでスライドして表示されるようにする */
-.contact:checked ~ .mail {
-  bottom: 110px;
-  right: 30px;
-  width: 50px;
-  height: 50px;
-}
-
-.contact:checked ~ .facebook {
-  bottom: 90px;
-  right: 90px;
-  width: 50px;
-  height: 50px;
-}
-
-.contact:checked ~ .twitter {
-  bottom: 30px;
-  right: 110px;
-  width: 50px;
-  height: 50px;
-}
-
-.mail {
-  list-style: none;
-  position: fixed;
-  bottom: 110px;
-  right: 30px;
-  width: 50px;
-  height: 50px;
-  border-radius: 50px;
-  background-color: rgba(255,255,255,0.5);
-  z-index: 100;
-  box-shadow: 1px 3px 8px rgba(0,0,0,0.2);
-}
-
-.mail a {
-  transition-delay: .1s;
-  padding-top: 13px;
-  color: #292929;
-  font-size: 20px;
-  font-family: 'Didot';
-  font-weight: lighter;
-  text-align: center;
-  text-decoration: none;
-  display: block;
-  transition:all 0.3s ease;
-}
-
-.facebook {
-  list-style: none;
-  position: fixed;
-  bottom: 90px;
-  right: 90px;
-  width: 50px;
-  height: 50px;
-  border-radius: 50px;
-  background-color: rgba(255,255,255,0.5);
-  z-index: 100;
-  box-shadow: 1px 3px 8px rgba(0,0,0,0.2);
-}
-
-.facebook a {
-  transition-delay: .2s;
-  padding-top: 11px;
-  color: #292929;
-  font-size: 24px;
-  font-family: 'Didot';
-  font-weight: lighter;
-  text-align: center;
-  text-decoration: none;
-  display: block;
-  transition:all 0.3s ease;
-}
-
-.twitter {
-  list-style: none;
-  position: fixed;
-  bottom: 30px;
-  right: 110px;
-  width: 50px;
-  height: 50px;
-  border-radius: 50px;
-  background-color: rgba(255,255,255,0.5);
-  z-index: 100;
-  box-shadow: 1px 3px 8px rgba(0,0,0,0.2);
-}
-
-.twitter a {
-  transition-delay: .3s;
-  padding-top: 11px;
-  color: #292929;
-  font-size: 24px;
-  font-family: 'Didot';
-  font-weight: lighter;
-  text-align: center;
-  text-decoration: none;
-  display: block;
-  transition:all 0.3s ease;
 }
 
 .about {
