@@ -13,6 +13,7 @@ html {
 body {
   width: 100%;
   height: 100%;
+  /* background: #000000; */
 }
 
 .parallax {
@@ -449,32 +450,32 @@ body {
 #calm {
   background-color: #fff;
   width: 100%;
-  height: 778px;
+  height: 100%;
   overflow: hidden;
-  margin-top: 50px;
+  /* margin-top: 50px; */
 }
 
 #hub {
   background-color: #fff;
   width: 100%;
-  height: 778px;
+  height: 100%;
   overflow: hidden;
-  margin-top: 50px;
+  /* margin-top: 50px; */
 }
 
 #memorie {
   background-color: #fff;
   width: 100%;
-  height: 778px;
+  height: 100%;
   overflow: hidden;
-  margin-top: 50px;
+  /* margin-top: 50px; */
 }
 
 .web {
   padding-top: 100px;
   background-color: #fff;
   width: 100%;
-  height: 90%;
+  height: 100%;
 }
 
 .web .web-title {
@@ -524,7 +525,7 @@ body {
 @media screen and (max-width:480px) {
   .parallax {
     background-position: center;
-    height: 650px;
+    height: 100%;
   }
 
   .header {
@@ -547,7 +548,7 @@ body {
   }
 
   .about {
-    height: 660px;
+    height: 100%;
   }
 
   .about .aboutct {
@@ -666,15 +667,15 @@ body {
   }
 
   #calm {
-    height: 754px;
+    height: 100%;
   }
 
   #hub {
-    height: 720px;
+    height: 100%;
   }
 
   #memorie {
-    height: 765px;
+    height: 100%;
   }
 
   .web .web-title {
