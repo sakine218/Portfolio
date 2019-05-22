@@ -13,6 +13,7 @@ html {
 body {
   width: 100%;
   height: 100%;
+  /* 背景黒にして背景の目立ちおさえる */
   background: #000000;
 }
 
@@ -447,10 +448,11 @@ body {
   transition: .3s;
 }
 
+/* margin-topのせいで背景画像の前に空白ができる */
 #calm {
   background-color: #fff;
   width: 100%;
-  height: 100%;
+  height: 778px;
   overflow: hidden;
   /* margin-top: 50px; */
 }
@@ -458,7 +460,7 @@ body {
 #hub {
   background-color: #fff;
   width: 100%;
-  height: 100%;
+  height: 778px;
   overflow: hidden;
   /* margin-top: 50px; */
 }
@@ -466,7 +468,7 @@ body {
 #memorie {
   background-color: #fff;
   width: 100%;
-  height: 100%;
+  height: 778px;
   overflow: hidden;
   /* margin-top: 50px; */
 }
@@ -475,7 +477,7 @@ body {
   padding-top: 100px;
   background-color: #fff;
   width: 100%;
-  height: 100%;
+  height: 90%;
 }
 
 .web .web-title {
@@ -525,6 +527,7 @@ body {
 @media screen and (max-width:480px) {
   .parallax {
     background-position: center;
+    /* height: 650px; */
     height: 100%;
   }
 
@@ -548,7 +551,7 @@ body {
   }
 
   .about {
-    height: 100%;
+    height: 660px;
   }
 
   .about .aboutct {
@@ -667,15 +670,15 @@ body {
   }
 
   #calm {
-    height: 100%;
+    height: 754px;
   }
 
   #hub {
-    height: 100%;
+    height: 720px;
   }
 
   #memorie {
-    height: 100%;
+    height: 765px;
   }
 
   .web .web-title {
