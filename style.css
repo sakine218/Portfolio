@@ -17,13 +17,6 @@ body {
   background: #000000;
 }
 
-.parallax {
-    height: 100%;
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: background-image 0.4s;
-}
 
 .content {
     background-color: #fff;
@@ -31,61 +24,72 @@ body {
     text-align: center;
 }
 
-.parallax.bg-01 {
-    background-image: url(images/parallaxImages/parallaxBg-01.jpg);
+.parallax-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.parallax{
+  width: 100%;
+  height: 100%;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.bg {
+    z-index: 1;
+}
+.bg-gray {
+    z-index: 2;
+    opacity: 0;
+}
+#parallax-01{
+  background-image: url(images/parallaxImages/parallaxBg-01.jpg);
+}
+#parallax-01-gray{
+  background-image: url(images/parallaxImages/parallaxBg-01-gray.jpg);
+}
+#parallax-02{
+  background-image: url(images/parallaxImages/parallaxBg-02.jpg);
+}
+#parallax-02-gray{
+  background-image: url(images/parallaxImages/parallaxBg-02-gray.jpg);
+}
+#parallax-03{
+  background-image: url(images/parallaxImages/parallaxBg-03.jpg);
+}
+#parallax-03-gray{
+  background-image: url(images/parallaxImages/parallaxBg-03-gray.jpg);
+}
+#parallax-04{
+  background-image: url(images/parallaxImages/parallaxBg-04.jpg);
+}
+#parallax-04-gray{
+  background-image: url(images/parallaxImages/parallaxBg-04-gray.jpg);
+}
+#parallax-05{
+  background-image: url(images/parallaxImages/parallaxBg-05.jpg);
+}
+#parallax-05-gray{
+  background-image: url(images/parallaxImages/parallaxBg-05-gray.jpg);
+}
+#parallax-06{
+  background-image: url(images/parallaxImages/parallaxBg-06.jpg);
+}
+#parallax-06-gray{
+  background-image: url(images/parallaxImages/parallaxBg-06-gray.jpg);
+}
+#parallax-07{
+  background-image: url(images/parallaxImages/parallaxBg-07.jpg);
+}
+#parallax-07-gray{
+  background-image: url(images/parallaxImages/parallaxBg-07-gray.jpg);
 }
 
-.parallax.bg-02 {
-    background-image: url(images/parallaxImages/parallaxBg-02.jpg);
-}
 
-.parallax.bg-03 {
-    background-image: url(images/parallaxImages/parallaxBg-03.jpg);
-}
-
-.parallax.bg-04 {
-    background-image: url(images/parallaxImages/parallaxBg-04.jpg);
-}
-
-.parallax.bg-05 {
-    background-image: url(images/parallaxImages/parallaxBg-05.jpg);
-}
-
-.parallax.bg-06 {
-    background-image: url(images/parallaxImages/parallaxBg-06.jpg);
-}
-
-.parallax.bg-07 {
-    background-image: url(images/parallaxImages/parallaxBg-07.jpg);
-}
-
-.bg-gray-01 {
-    background-image: url(images/parallaxImages/parallaxBg-01-gray.jpg) !important;
-}
-
-.bg-gray-02 {
-    background-image: url(images/parallaxImages/parallaxBg-02-gray.jpg) !important;
-}
-
-.bg-gray-03 {
-    background-image: url(images/parallaxImages/parallaxBg-03-gray.jpg) !important;
-}
-
-.bg-gray-04 {
-    background-image: url(images/parallaxImages/parallaxBg-04-gray.jpg) !important;
-}
-
-.bg-gray-05 {
-    background-image: url(images/parallaxImages/parallaxBg-05-gray.jpg) !important;
-}
-
-.bg-gray-06 {
-    background-image: url(images/parallaxImages/parallaxBg-06-gray.jpg) !important;
-}
-
-.bg-gray-07 {
-    background-image: url(images/parallaxImages/parallaxBg-07-gray.jpg) !important;
-}
 
 .contact_btn{
     display: block;
